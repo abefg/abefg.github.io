@@ -1,0 +1,9 @@
+name: abefg-redirect
+static_sites:
+- environment_slug: html
+  github:
+    branch: abefg-redirect
+    deploy_on_push: true
+    repo: abefg/abefg.github.io
+  name: abefg-redirect
+  catchall_document: index.html
